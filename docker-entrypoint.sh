@@ -2,7 +2,7 @@
 
 wget -O /opt/aptos/etc/genesis.blob https://devnet.aptoslabs.com/genesis.blob
 
-wget -O /opt/aptos/etc/aypoint.txt https://devnet.aptoslabs.com/waypoint.txt
+wget -O /opt/aptos/etc/waypoint.txt https://devnet.aptoslabs.com/waypoint.txt
 
 wget -O /opt/aptos/etc/node.yaml https://raw.githubusercontent.com/aptos-labs/aptos-core/main/docker/compose/public_full_node/public_full_node.yaml
 
