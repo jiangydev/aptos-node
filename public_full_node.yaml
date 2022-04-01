@@ -36,6 +36,11 @@ full_node_networks:
             addresses:
             - "/ip4/5.161.77.193/tcp/6180/ln-noise-ik/043ddfb22ee3e69b7a92e77dc18e4cf08bdbb7e5d80427358be84fdc7484e04f/ln-handshake/0"
             role: "Upstream"
+        # Nanjing, Jiangsu, China; Tencent Clound; provided by @kongdelu
+        42aa5a9a4ab061b6c5581d1d5aa47e1c53de0452288c4b44a1a50e5c6c38bf16:
+            addresses:
+            - "/ip4/118.195.204.217/tcp/6180/ln-noise-ik/42aa5a9a4ab061b6c5581d1d5aa47e1c53de0452288c4b44a1a50e5c6c38bf16/ln-handshake/0"
+            role: Upstream
         bb14af025d226288a3488b4433cf5cb54d6a710365a2d95ac6ffbd9b9198a86a:
             addresses:
             - "/dns4/pfn0.node.devnet.aptoslabs.com/tcp/6182/ln-noise-ik/bb14af025d226288a3488b4433cf5cb54d6a710365a2d95ac6ffbd9b9198a86a/ln-handshake/0"
