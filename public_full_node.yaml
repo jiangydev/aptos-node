@@ -20,22 +20,6 @@ full_node_networks:
       listen_address: "/ip4/0.0.0.0/tcp/6180"
       # Define the upstream peers to connect to
       seeds:
-        1741d4ef7b057349f8162b50b84b5959c872c927fba037a502aeca0da4b60d3e:
-            addresses:
-            - "/ip4/5.161.43.102/tcp/6180/ln-noise-ik/1741d4ef7b057349f8162b50b84b5959c872c927fba037a502aeca0da4b60d3e/ln-handshake/0"
-            role: "Upstream"
-        89da9eb920fc03919127565194114680c2793d52df2f68ceab3ae3835d828267:
-            addresses:
-            - "/ip4/5.161.48.214/tcp/6180/ln-noise-ik/89da9eb920fc03919127565194114680c2793d52df2f68ceab3ae3835d828267/ln-handshake/0"
-            role: "Upstream"
-        cc7fe3a4ed6e8fc3d3aa1e996d4d572fa66c58acdce57670456fad32b4c6ea45:
-            addresses:
-            - "/ip4/5.161.49.15/tcp/6180/ln-noise-ik/cc7fe3a4ed6e8fc3d3aa1e996d4d572fa66c58acdce57670456fad32b4c6ea45/ln-handshake/0"
-            role: "Upstream"
-        043ddfb22ee3e69b7a92e77dc18e4cf08bdbb7e5d80427358be84fdc7484e04f:
-            addresses:
-            - "/ip4/5.161.77.193/tcp/6180/ln-noise-ik/043ddfb22ee3e69b7a92e77dc18e4cf08bdbb7e5d80427358be84fdc7484e04f/ln-handshake/0"
-            role: "Upstream"
         # Nanjing, Jiangsu, China; Tencent Clound; provided by @kongdelu
         42aa5a9a4ab061b6c5581d1d5aa47e1c53de0452288c4b44a1a50e5c6c38bf16:
             addresses:
