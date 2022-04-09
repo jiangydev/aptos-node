@@ -31,10 +31,10 @@ full_node_networks:
         #    - "/ip4/121.4.86.46/tcp/6180/ln-noise-ik/704d8bed992217075cda6a5bef9f476f823cbe79fe13718029d9f172aea1391e/ln-handshake/0"
         #    role: Upstream
         # Shanghai, China; Huawei Clound; provided by @Skedush
-        #2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a:
-        #    addresses:
-        #    - "/dns4/www.deepleep.com/tcp/6180/ln-noise-ik/2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a/ln-handshake/0"
-        #    role: Upstream
+        2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a:
+            addresses:
+            - "/dns4/www.deepleep.com/tcp/6180/ln-noise-ik/2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a/ln-handshake/0"
+            role: Upstream
         # Shanghai, China; Tencent Clound; provided by @ahtbatd
         #cfcab2df1416abac68b893ae2608e1d334c97de9cfd66326ce6b2a19b745733e:
         #    addresses:
