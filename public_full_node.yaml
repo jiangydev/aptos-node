@@ -26,34 +26,44 @@ full_node_networks:
             - "/ip4/118.195.204.217/tcp/6180/ln-noise-ik/42aa5a9a4ab061b6c5581d1d5aa47e1c53de0452288c4b44a1a50e5c6c38bf16/ln-handshake/0"
             role: Upstream
         # Shanghai, China; Tencent Clound; provided by @zhanglin2
-        704d8bed992217075cda6a5bef9f476f823cbe79fe13718029d9f172aea1391e:
-            addresses:
-            - "/ip4/121.4.86.46/tcp/6180/ln-noise-ik/704d8bed992217075cda6a5bef9f476f823cbe79fe13718029d9f172aea1391e/ln-handshake/0"
-            role: Upstream
+        #704d8bed992217075cda6a5bef9f476f823cbe79fe13718029d9f172aea1391e:
+        #    addresses:
+        #    - "/ip4/121.4.86.46/tcp/6180/ln-noise-ik/704d8bed992217075cda6a5bef9f476f823cbe79fe13718029d9f172aea1391e/ln-handshake/0"
+        #    role: Upstream
         # Shanghai, China; Huawei Clound; provided by @Skedush
-        2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a:
-            addresses:
-            - "/dns4/www.deepleep.com/tcp/6180/ln-noise-ik/2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a/ln-handshake/0"
-            role: Upstream
+        #2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a:
+        #    addresses:
+        #    - "/dns4/www.deepleep.com/tcp/6180/ln-noise-ik/2ae2cf1f334b72ac987fed7e66cb362da9a4f594a31372670c30d9951fb3823a/ln-handshake/0"
+        #    role: Upstream
         # Shanghai, China; Tencent Clound; provided by @ahtbatd
-        cfcab2df1416abac68b893ae2608e1d334c97de9cfd66326ce6b2a19b745733e:
+        #cfcab2df1416abac68b893ae2608e1d334c97de9cfd66326ce6b2a19b745733e:
+        #    addresses:
+        #    - "/ip4/110.40.182.212/tcp/6180/ln-noise-ik/cfcab2df1416abac68b893ae2608e1d334c97de9cfd66326ce6b2a19b745733e/ln-handshake/0"
+        #    role: "Upstream"
+        # Shanghai, China; Tencent Clound; provided by @ahtbatd
+        #2f04a89ad150eb78ecf9c8358214e4bd5a4c2f0dbf5148b0a84c0f11e761231f:
+        #    addresses:
+        #    - "/ip4/42.192.143.216/tcp/6180/ln-noise-ik/2f04a89ad150eb78ecf9c8358214e4bd5a4c2f0dbf5148b0a84c0f11e761231f/ln-handshake/0"
+        #    role: "Upstream"
+        # Shanghai, China; Tencent Clound; provided by @ahtbatd
+        #68ccb17f07d1788c647244a44747423a81d0de8e671ffa16ba6a8b71229c883c:
+        #    addresses:
+        #    - "/ip4/110.40.154.249/tcp/6180/ln-noise-ik/68ccb17f07d1788c647244a44747423a81d0de8e671ffa16ba6a8b71229c883c/ln-handshake/0"
+        #    role: "Upstream"
+        # Shanghai, China; Tencent Clound; provided by @ahtbatd
+        #7325e7508f466ba1673d39aac49b4c1058149bed05fd66e663c2d7c5f9e5263b:
+        #    addresses:
+        #    - "/ip4/1.14.125.22/tcp/6180/ln-noise-ik/7325e7508f466ba1673d39aac49b4c1058149bed05fd66e663c2d7c5f9e5263b/ln-handshake/0"
+        #    role: "Upstream"
+        # Shanghai, China; Tencent Clound; provided by @Noah123-4
+        fd5e08af858d3f45f036e77c46e123d474edcabe781b8975629f4df440460e00:
             addresses:
-            - "/ip4/110.40.182.212/tcp/6180/ln-noise-ik/cfcab2df1416abac68b893ae2608e1d334c97de9cfd66326ce6b2a19b745733e/ln-handshake/0"
+            - "/ip4/49.234.88.171/tcp/6180/ln-noise-ik/fd5e08af858d3f45f036e77c46e123d474edcabe781b8975629f4df440460e00/ln-handshake/0"
             role: "Upstream"
-        # Shanghai, China; Tencent Clound; provided by @ahtbatd
-        2f04a89ad150eb78ecf9c8358214e4bd5a4c2f0dbf5148b0a84c0f11e761231f:
+        # Shanghai, China; Tencent Clound; provided by @NOrh-123
+        85f06a104cdf5b650e2a670ecc3bf8f49ba90458cda76955b44c9f3046e77d18:
             addresses:
-            - "/ip4/42.192.143.216/tcp/6180/ln-noise-ik/2f04a89ad150eb78ecf9c8358214e4bd5a4c2f0dbf5148b0a84c0f11e761231f/ln-handshake/0"
-            role: "Upstream"
-        # Shanghai, China; Tencent Clound; provided by @ahtbatd
-        68ccb17f07d1788c647244a44747423a81d0de8e671ffa16ba6a8b71229c883c:
-            addresses:
-            - "/ip4/110.40.154.249/tcp/6180/ln-noise-ik/68ccb17f07d1788c647244a44747423a81d0de8e671ffa16ba6a8b71229c883c/ln-handshake/0"
-            role: "Upstream"
-        # Shanghai, China; Tencent Clound; provided by @ahtbatd
-        7325e7508f466ba1673d39aac49b4c1058149bed05fd66e663c2d7c5f9e5263b:
-            addresses:
-            - "/ip4/1.14.125.22/tcp/6180/ln-noise-ik/7325e7508f466ba1673d39aac49b4c1058149bed05fd66e663c2d7c5f9e5263b/ln-handshake/0"
+            - "/ip4/101.35.222.148/tcp/6180/ln-noise-ik/85f06a104cdf5b650e2a670ecc3bf8f49ba90458cda76955b44c9f3046e77d18/ln-handshake/0"
             role: "Upstream"
         bb14af025d226288a3488b4433cf5cb54d6a710365a2d95ac6ffbd9b9198a86a:
             addresses:
