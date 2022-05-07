@@ -19,11 +19,6 @@ state_sync:
 full_node_networks:
     - network_id: "public"
       discovery_method: "onchain"
-      # You can replace with your private key and peer id here. After replacing, you should uncomment these four lines. 
-      #identity:
-      #  type: "from_config"
-      #  key: "replace your private key here"
-      #  peer_id: "replace your peer id here"
       # The network must have a listen address to specify protocols. This runs it locally to
       # prevent remote, incoming connections.
       listen_address: "/ip4/0.0.0.0/tcp/6180"
