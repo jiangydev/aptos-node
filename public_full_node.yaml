@@ -37,12 +37,6 @@ full_node_networks:
             - "/dns4/pfn2.node.devnet.aptoslabs.com/tcp/6182/noise-ik/f6b135a59591677afc98168791551a0a476222516fdc55869d2b649c614d965b/handshake/0"
             role: "Upstream"
 
-debug_interface:
-    admission_control_node_debug_port: 6191
-    address: "0.0.0.0"
-    metrics_server_port: 9101
-    public_metrics_server_port: 9102
-
 api:
     # This specifies your REST API endpoint. Intentionally on public so that Docker can export it.
     address: 0.0.0.0:8080
