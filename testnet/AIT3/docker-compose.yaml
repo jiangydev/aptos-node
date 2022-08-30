@@ -1,0 +1,52 @@
+# This compose file defines an Aptos Validator deployment.
+# Read the README.md files for instruction on how to install aptos-node
+
+version: "3.8"
+services:
+  validator:
+    image: "${VALIDATOR_IMAGE_REPO:-aptoslabs/validator}:${IMAGE_TAG:-testnet_93d1ae2266ff13f552fee4770940b0837d1b03ba}"
+    environment:
+      RUST_BACKTRACE: 0
+    networks:
+      shared:
+    volumes:
+      - type: volume
+        source: aptos-validator
+        target: /opt/aptos/data
+      - type: bind
+        source: ./validator.yaml
+        target: /opt/aptos/etc/validator.yaml
+      - type: bind
+        source: ./genesis.blob
+        target: /opt/aptos/genesis/genesis.blob
+      - type: bind
+        source: ./waypoint.txt
+        target: /opt/aptos/genesis/waypoint.txt
+      - type: bind
+        source: ./validator-identity.yaml
+        target: /opt/aptos/genesis/validator-identity.yaml
+    command: ["/opt/aptos/bin/aptos-node", "-f", "/opt/aptos/etc/validator.yaml"]
+    restart: unless-stopped
+    ports:
+      - "6180:6180"
+      - "6181:6181"
+      - "127.0.0.1:80:8080"
+      - "127.0.0.1:9101:9101"
+    expose:
+      - 6180
+      - 6181
+    logging:
+      options:
+        max-file: "3"
+        max-size: "100m"
+
+networks:
+  shared:
+    name: "aptos-docker-compose-shared"
+    ipam:
+      config:
+        - subnet: 172.16.1.0/24
+
+volumes:
+  aptos-validator:
+    name: aptos-validator
