@@ -4,7 +4,7 @@
 version: "3.8"
 services:
   validator:
-    image: "${VALIDATOR_IMAGE_REPO:-aptoslabs/validator}:${IMAGE_TAG:-testnet_88f936bf40a56768e2dac420e953a0307281c1ba}"
+    image: "${VALIDATOR_IMAGE_REPO:-aptoslabs/validator}:${IMAGE_TAG:-testnet_26ed95ce4c8798743e7900bba566d29079af0a70}"
     environment:
       RUST_BACKTRACE: 0
     networks:
